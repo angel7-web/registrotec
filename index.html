@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> <!-- Corregir enlace -->
+    <link rel="stylesheet" href="estilos.css">
+    <script src="code.js" defer></script> <!-- Vincular el archivo JavaScript -->
+</head>
+<body>
+<header class="encabezado">
+<img class="img1" src="logo2.png" alt="">
+<div class="uni"><h1>Instituto Técnologico de Huejutla</h1></div>
+<img class="img2" src="logo1.png" alt="">
+</header>
+
+
+    <div class="contenedor">
+        <form class="form-uno">
+            <div class="login">
+            <h2>LOGIN</h2>    
+            </div>
+
+            <div class="usuario">
+                <input name="email" type="email" placeholder="Uusario" required>
+            </div>
+
+            <div class="pass">
+                <input id="numeroControl" type="text" placeholder="Numero de control" maxlength="8" oninput="validarNumeroControl()" required>
+                <div id="mensaje"></div> 
+            </div>
+
+
+            <div class="rm">
+                <label for="#">
+                    <input type="checkbox"> Recordar Contraseña
+                </label>
+            </div>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+            
+            <button class="btn">Login</button>
+            <div class="registrar">
+                <p>¿No tienes una cuenta? <a href="formulario.html" >Registrar</a></p>
+            </div>
+        </form>
+        <img class="img3" src="Imagen3.png" alt="">
+    </div>
+<footer class="pie">
+        <div class="direccion">
+            <h3>Dirección</h3>
+            <p>Carretera Huejutla-Chalahuiyapa, Km 5.5</p>
+            <p>Huejutla de Reyes, Hidalgo C. P. 43000</p>
+        </div>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>Teléfono: (01- 789) 89-6-06-48</p>
+            <p>Email: <a href="mailto:dir_huejutla@tecnm.mx">dir_huejutla@tecnm.mx</a></p>
+        </div>
+</footer>
+    
+
+</body>
+
+</html>
+
